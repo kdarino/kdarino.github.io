@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://xid.i-mobile.co.jp/RestoreXidToMediaStorage.html -->
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title></title>
+<script>var tvt = tvt || {}; tvt.captureVariables = function (a){for(var b=new Date,c={},d=Object.keys(a||{}),e=0,f;f=d[e];e++)if(a.hasOwnProperty(f)&&
+"undefined"!=typeof a[f])try{var g=[];c[f]=JSON.stringify(a[f],function(a,b){try{if("function"!==typeof b){if("object"===typeof b&&null!==b){if(b instanceof HTMLElement||b instanceof Node||-1!=g.indexOf(b))return;g.push(b)}return b}}catch(c){}})}catch(l){}a=document.createEvent("CustomEvent");a.initCustomEvent("TvtRetrievedVariablesEvent",!0,!0,{variables:c,date:b});window.dispatchEvent(a)};window.setTimeout(function() {tvt.captureVariables({'dataLayer': window['dataLayer']})}, 2000);</script></head>
+<body marginwidth="0" marginheight="0">
+	<script type="text/javascript">
+
+		(function (global) {
+			function setOnLoadEvent(functor) {
+				if (global.attachEvent) {
+					global.attachEvent("onload", functor);
+				}
+				else {
+					global.addEventListener("load", functor, false);
+				}
+			}
+
+			function getXid() {
+				if (global.localStorage) {
+					var xid = global.localStorage.getItem("xid");
+					if (xid != null) {
+						return xid;
+					}
+				}
+				return "";
+			}
+
+			function getOptout() {
+				if (global.localStorage) {
+					var optout = global.localStorage.getItem("optout");
+					if (optout != null) {
+						return optout;
+					}
+				}
+				return "false";
+			}
+
+			setOnLoadEvent(function () {
+			    try{
+			        var target = (parent.postMessage ? parent : (parent.document.postMessage ? parent.document : undefined));
+			        if (typeof target !== "undefined") {
+			            var xidText = getXid();
+			            var optout = getOptout();
+			            var xidObj = "{\"xid\":\"" + xidText + "\" , \"optout\":\"" + optout + "\"}";
+			            target.postMessage(xidObj, "*");
+			        }
+			    } catch (ex) {
+
+			    }
+			});
+		})(window);
+
+	</script>
+
+
+</body></html>

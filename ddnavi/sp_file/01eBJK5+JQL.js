@@ -1,0 +1,2 @@
+define("TouchFriendlyPrivacy",[window,document,"EventUtils","StyleUtils",nut],function(g,h,e,b,a){return{init:function(){if("ontouchstart"in window){var f=a("#dra-html")[0];if(f){var c=a("#privacy")[0];if(c){var d=a("#privacy span")[0];d&&(f.className=b.removeClass("hoverEnabled",f.className),e.attach({element:c,event:"click",callback:function(a){if(b.existsClass("expanded",d.className))return!0;d.className=b.addClass("expanded",d.className);c.className=b.addClass("privacyExpanded",c.className);e.preventDefault(a);
+e.stopPropagation(a);return!1}}))}}}}}});

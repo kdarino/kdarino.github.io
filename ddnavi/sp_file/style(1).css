@@ -1,0 +1,164 @@
+/*******************
+AD STYLES
+*******************/
+.expanded{
+	display: block;
+}
+.collapsed{
+	display: none;
+}
+#container{
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	height:100%;
+}
+
+/************************
+CREATIVE CONTENT STYLES
+************************/
+button {
+	background-color: #0068FF;
+	border: none;
+	color: #FFF;
+	cursor: pointer;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	outline: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	user-select: none;
+}
+
+button:hover, button:active {
+  color: #FAF000;
+}
+/*******************
+Banner STYLES
+*******************/
+html, body{
+
+	font-family: arial;
+	font-size: 12px;
+}
+
+#banner-clickthrough-button{
+	width: 231px;
+	height: 49px;
+}
+
+/*******************
+Panel STYLES
+*******************/
+#panel{
+	width: 298px;
+	height: 248px;
+	position: absolute;
+	border:1px solid #646464;
+}
+#close-button{
+	background-color: rgba(0, 104, 255, 0);
+	background-image: url(../images/btn_close.png);
+	position: absolute;
+	right:0;
+	top:0;
+	width: 56px;
+	height: 40px;
+}
+#panel-container{
+	width: 100%;
+	height: 100%;
+}
+#launch-player-button{
+	background-color: rgba(0, 104, 255, 0);
+	background-image: url(../images/btn_external.png);
+	width: 56px;
+	height: 40px;
+	position: absolute;
+	top: 40px;
+	right: 0px;
+}
+#panel-video-sprite-container{
+	/*
+	width: 262px;
+	height: 148px;
+	*/
+	position:absolute;
+	top:80px;
+	width: 300px;
+	height: 170px;
+	/*background-color: rgb(97, 138, 192);*/
+	overflow: hidden;
+	clip: rect(0px, 298px, 168px, 0px);
+
+	/*t, r b, l*/
+}
+#panel-video-sprite-container img{
+	/*width: 2620px;
+	height: 444px;*/
+	width: 1800px;
+	height: 6800px;
+	display: block;
+}
+#panel-clickthrough-button{
+	width: 56px;
+	height: 68px;
+	position: absolute;
+	top: 80px;
+	right: 0px;
+}
+#video-sprite-play-button{
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	top: 0;
+	bottom: 0;
+	/*
+	background-image: url(../images/icn_play.png);
+	background-repeat: no-repeat;
+	background-position-x: 124px;
+	background-position-y: 65px;
+	*/
+	cursor: pointer;
+}
+#video-container{
+	width: 298px;
+	height: 168px;
+	position: absolute;
+	background-color: black;
+	top: 80px;
+	left: 1;
+}
+#video{
+	width: 298px;
+	height: 168px;
+}
+.sprites img{
+	display: block;
+}
+
+#header-container{
+	cursor: pointer;
+	position: absolute;
+}
+
+#poster{
+	cursor: pointer;
+	display:none;
+	position:absolute;
+	top:80px;
+}
+
+#buttonPlay{
+  position: absolute;
+  bottom:1px;
+  right:4px;
+  cursor: pointer;
+  display:none;
+}
+
+#buttonPause{
+  position: absolute;
+  bottom:1px;
+  right:4px;
+  cursor: pointer;
+}

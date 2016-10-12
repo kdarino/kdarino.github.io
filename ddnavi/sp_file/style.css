@@ -136,7 +136,8 @@ header h1 a,header .top a{display:block;background:url(http://ddnavi.com/wp-cont
 #category_info{border-bottom:1px solid #eeeee6}
 #category_info h1{font-size:24px;font-weight:bold;padding:6px 10px;line-height:30px}
 #category_info p{font-size:13px;line-height:20px;padding:0 10px 10px 10px}
-article h1{font-size:22px;font-weight:bold;padding:6px 10px;line-height:30px}
+article h1{font-size:22px;font-weight:bold;padding:46px 10px 6px;line-height:30px}
+article h1{font-family: '游ゴシック', YuGothic,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;}
 
 article a{color:#002856;text-decoration:none}
 article p{font-size:16px;line-height:28px;margin-bottom:1em}

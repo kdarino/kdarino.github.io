@@ -7,7 +7,9 @@ Version: 1.0
 @charset "UTF-8";
 @import url("style.css");
 @import url("reset.css");
-body{font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;-webkit-text-size-adjust:none;color:#111;background-color:#000;}
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body{font-family:"Noto Sans Japanese","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;-webkit-text-size-adjust:none;color:#111;background-color:#000;}
 .mb01{margin-bottom:1px !important}
 .mb05{margin-bottom:5px !important}
 .mb10{margin-bottom:10px !important}
@@ -137,7 +139,7 @@ header h1 a,header .top a{display:block;background:url(http://ddnavi.com/wp-cont
 #category_info h1{font-size:24px;font-weight:bold;padding:6px 10px;line-height:30px}
 #category_info p{font-size:13px;line-height:20px;padding:0 10px 10px 10px}
 article h1{font-size:22px;font-weight:bold;padding:46px 10px 6px;line-height:30px}
-article h1{font-family: '游ゴシック', YuGothic,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;}
+
 
 article a{color:#002856;text-decoration:none}
 article p{font-size:16px;line-height:28px;margin-bottom:1em}

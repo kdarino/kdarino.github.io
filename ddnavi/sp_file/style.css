@@ -5,7 +5,7 @@ Description: ダ・ヴィンチ電子ナビ用デザインテンプレート（�
 Version: 1.0
 */
 @charset "UTF-8";
-@import url("style.css?v=3.03");
+@import url("style.css");
 @import url("reset.css");
 body{font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;-webkit-text-size-adjust:none;color:#111;background-color:#000;}
 .mb01{margin-bottom:1px !important}

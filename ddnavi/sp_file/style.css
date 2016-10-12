@@ -17,7 +17,7 @@ body{font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイ�
 #wrap{min-width:320px;max-width:1024px;margin:0 auto;z-index:1000;background-color:#FFF}
 .clearfix{height:100%}
 .clearfix:after{display:block;height:0;clear:both;content:""}
-header{width:100%;position:relative;height:45px;background:url(http://ddnavi.com/wp-content/themes/ddnavi_smartphone/img/bg_header.gif) repeat-x;background-size:1px 45px;-moz-background-size:1px 45px;-webkit-background-size:1px 45px}
+header{width:100%;position:fixed;height:40px;background:#fff;background-size:1px 45px;-moz-background-size:1px 45px;-webkit-background-size:1px 45px;box-shadow: 0px -1px 15px rgba(153, 153, 153, 0.6);}
 header #menu{position:absolute;left:0;top:0}
 header h1,header .top{width:189px;height:36px;margin:0 auto;text-indent:100%;white-space:nowrap;overflow:hidden}
 header h1 a,header .top a{display:block;background:url(http://ddnavi.com/wp-content/themes/ddnavi_smartphone/img/logo_201510.png) no-repeat;width:189px;height:36px;background-size:189px 36px;-moz-background-size:189px 36px;-webkit-background-size:189px 36px;margin-top:2px}

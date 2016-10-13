@@ -435,7 +435,7 @@ blockquote cite {color: #888; font-size: 14px; display: block; text-align: right
 blockquote cite:before { content: "\2014 \2009";}
 
 .centered ul figure {margin:0 7px;text-align:center;}
-.centered ul figure img {width:100% !important;}
+.centered ul figure img {width:25% !important;float:left;}
 .centered ul figure figcaption {margin:3px 0 10px 0;text-align:center;width:100% !important;}
 
 .al-left {5px 0;text-align:center}
